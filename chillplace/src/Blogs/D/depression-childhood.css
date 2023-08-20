@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+.blog-container-depression-childhood{
+    background:fixed;
+    background-color: #EADEC8;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 30px; /* Để loại bỏ khoảng cách xung quanh nội dung */
+    height: 4500px;
+}
+.back-link{
+    text-decoration: dotted;
+    color: #000;
+}
+.Back-button{
+    display: flex;
+}
+.define-para{
+    border: 1px solid #ccc; /* Định dạng khung */
+    padding: 20px; /* Khoảng cách giữa nội dung và khung */
+    margin-bottom: 20px; /* Khoảng cách giữa các khung */
+    background-color: rgba(217, 217, 217, 0.35);
+    border-left: 3px solid #661f1f; /* Tạo viền bên trái */
+    border-right: 3px solid #661f1f; /* Tạo viền bên trái */
+    font-family: 'Bai Jamjuree';
+}
+.table-container{
+    display: flex;
+    padding: 10px;
+}
+.table-of-contents-12{
+    border: 1px solid #ccc; /* Định dạng khung */
+    padding: 30px; /* Khoảng cách giữa nội dung và khung */
+    margin-bottom: 20px; /* Khoảng cách giữa các khung */
+    background-color: rgba(217, 217, 217, 0.35);
+    height: 250px;
+    margin-right: 30px;
+}
+.table-of-contents-head{
+    font-size: 24px;
+    margin: 0;
+}
+.table-of-contents-list{
+    list-style: none;
+    border-left:3px solid #661f1f;
+    margin-left: -10px;
+}
+.desciption-blog{
+    justify-content: center;
+    align-items: center;
+}
+.depression-childhood-blog-list{
+    margin-bottom: 30px;
+}

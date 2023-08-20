@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre Bodoni:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai Jamjuree:wght@400&display=swap");
+.blog-container{
+    background-color: #EADEC8;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 30px;
+    height: 6300px;
+}
+.blog-title{
+    position: relative;
+    font-size: 80px;
+    font-family: 'Libre Bodoni';
+    color: #3e1616;
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    width: 245px;
+    height: 106px;
+    margin: 0 600px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.blog-head{
+    position: relative;
+    border-radius: 20px;
+    background-color: #65463c;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    font-size: 40px;
+    font-family: 'Bai Jamjuree';
+    color: #eadec8;
+    text-align: left;
+    margin:80px;
+    padding: 0 10px;
+}
+.blog-li{
+    position: relative;
+    font-size: 40px;
+    font-family: 'Bai Jamjuree';
+    color: #000;
+    text-align: left;
+    margin: 80px;
+    list-style: none;
+    display:inline-block;
+}
+.linking{
+    text-decoration: none;
+    margin: 0 0 30px;
+    padding: 12px;
+}

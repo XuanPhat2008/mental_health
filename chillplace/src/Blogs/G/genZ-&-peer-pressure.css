@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre Bodoni:wght@400&display=swap');
+.blog-container-genZ{
+    background:fixed;
+    background-color: #EADEC8;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 30px; /* Để loại bỏ khoảng cách xung quanh nội dung */
+    height: 4700px;
+}
+.back-link{
+    text-decoration: dotted;
+    color: #000;
+}
+.Back-button{
+    display: flex;
+}
+.genZ-content-list{
+    border: 1px solid #ccc; /* Định dạng khung */
+    padding: 20px; /* Khoảng cách giữa nội dung và khung */
+    margin-bottom: 20px; /* Khoảng cách giữa các khung */
+    background-color: #f4eee5;
+    border-left: 3px solid #661f1f; /* Tạo viền bên trái */
+    border-right: 3px solid #661f1f; /* Tạo viền bên trái */
+    font-family: 'Bai Jamjuree';
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.genZ-para-head{
+    font-family: 'Libre Bodoni';
+    font-size: 40px;
+}
+.genZ-para{
+    margin: 20px;
+    padding: 20px;
+}

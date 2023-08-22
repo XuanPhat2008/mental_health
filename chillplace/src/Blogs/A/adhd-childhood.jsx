@@ -37,7 +37,7 @@ const ADHDChildhood = ()=>{
                         <p>If you have a child who seems to bounce off the walls or who can’t focus long enough to get work done, it’s wise to be curious about the possibility of ADHD.</p>
                     </div>
                 </div>
-                <img src="../src/img/adhd.png" className="adhd-bg" alt=" "/>
+                <img src="/src/img/adhd.png" className="adhd-bg" alt=" "/>
                 <div className="adhd-blog">
                     <div className="adhd-blog-list">
                         <b>Characteristics of ADHD</b>
@@ -127,7 +127,7 @@ const ADHDChildhood = ()=>{
                 <div>
                     <div className="comment-container">
                         <u className="comment-title">COMMENTS</u>
-                        <img src="../src/img/image 69.png" className="comment-icon"/>
+                        <img src="/src/img/image 69.png" className="comment-icon"/>
                     </div>
                     <div className="comment-chat">
                         <p><b className="comment-user"><i>Reader_xuanphatcalemkemchuoi:</i></b> mình đã biết và chia sẻ đến web nhiều điều hay, bổ ích !!</p>

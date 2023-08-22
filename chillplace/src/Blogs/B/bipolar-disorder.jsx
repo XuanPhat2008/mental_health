@@ -31,7 +31,7 @@ const BipolarDisorder =()=>{
                             <p>There are two main types of bipolar disorders: bipolar I and bipolar II. According to the Diagnostic and Statistical Manual of Mental Disorders, bipolar I disorder involves episodes of severe mania and often depression. Bipolar II disorder involves a less severe form of mania called hypomania.</p>
                         </div>
                     </div>
-                    <img src="../src/img/image 24.png" className="bipolar-img"></img>
+                    <img src="/src/img/image 24.png" className="bipolar-img"></img>
                 </div>
                 <div className="bipolar-blog">
                     <div className="bipolar-blog-list">
@@ -106,7 +106,7 @@ const BipolarDisorder =()=>{
                 <div>
                     <div className="comment-container">
                         <u className="comment-title">COMMENTS</u>
-                        <img src="../src/img/image 69.png" className="comment-icon"/>
+                        <img src="/src/img/image 69.png" className="comment-icon"/>
                     </div>
                     <div className="comment-chat">
                         <p><b className="comment-user"><i>Reader_xuanphatcalemkemchuoi:</i></b> mình đã biết và chia sẻ đến web nhiều điều hay, bổ ích !!</p>

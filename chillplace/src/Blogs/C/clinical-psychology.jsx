@@ -26,7 +26,7 @@ const ClinicalPsy =()=>{
                             <li className="table-items">Opportunities</li>
                         </ul>
                     </div>
-                    <img src="../src/img/image 66.png"></img>
+                    <img src="/src/img/image 66.png"></img>
                 </div>
                 <div className="clinical-blog">
                     <div className="clinical-blog-list">
@@ -85,7 +85,7 @@ const ClinicalPsy =()=>{
                 <div>
                     <div className="comment-container">
                         <u className="comment-title">COMMENTS</u>
-                        <img src="../src/img/image 69.png" className="comment-icon"/>
+                        <img src="/src/img/image 69.png" className="comment-icon"/>
                     </div>
                     <div className="comment-chat">
                         <p><b className="comment-user"><i>Reader_xuanphatcalemkemchuoi:</i></b> mình đã biết và chia sẻ đến web nhiều điều hay, bổ ích !!</p>

@@ -1,0 +1,17 @@
+.blog-container-sub-3{
+    background:fixed;
+    background-color: #EADEC8;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 30px; /* Để loại bỏ khoảng cách xung quanh nội dung */
+    height: 3800px;
+}
+.sub-note{
+    border: 1px solid #ccc; /* Định dạng khung */
+    padding: 20px; /* Khoảng cách giữa nội dung và khung */
+    margin-bottom: 20px; /* Khoảng cách giữa các khung */
+    background-color: rgba(217, 217, 217, 0.35);
+}
+.sub-note-head{
+    color: #65463c;
+}

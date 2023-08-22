@@ -3,6 +3,13 @@
     text-decoration: dotted;
     color: #000;
 }
+.back-link:hover{
+   margin: 10px solid; 
+   background-color: #decba7;
+   border-radius: 30px;
+   padding: 1px;
+   color: #fff;
+}
 .Back-button{
     display: flex;
 }
@@ -12,7 +19,7 @@
     background-size: cover;
     background-repeat:no-repeat;
     padding: 30px; /* Để loại bỏ khoảng cách xung quanh nội dung */
-    height: 1700px;
+    height: 2700px;
 }
 .conditions-a-z {
     font-weight: 300;
@@ -90,4 +97,36 @@
     text-align: left;
     display: inline-block;
     height: 152px;
+}
+.addiction-content-list{
+    border: 1px solid #ccc; /* Định dạng khung */
+    padding: 20px; /* Khoảng cách giữa nội dung và khung */
+    margin-bottom: 20px; /* Khoảng cách giữa các khung */
+    background-color: #f4eee5;
+    border-left: 3px solid #661f1f; /* Tạo viền bên trái */
+    border-right: 3px solid #661f1f; /* Tạo viền bên trái */
+    font-family: 'Bai Jamjuree';
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.addiction-main-head{
+    font-family: 'Libre Bodoni';
+    font-size: 40px;
+}
+.addiction-main{
+    margin: 20px;
+    padding: 20px;
+}
+.addiction-content{
+    margin-top: 1200px;
+}
+.addiction-menu{
+    text-decoration: none;
+    margin: 0 0 30px;
+    padding: 12px;
+    color: #3e1616;
+}
+.sub-blog-list{
+    margin-bottom: 30px;
 }

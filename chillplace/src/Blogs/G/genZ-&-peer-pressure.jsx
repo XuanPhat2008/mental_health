@@ -19,28 +19,36 @@ const PeerPressure =()=>{
                     <img src="/src/img/image 59.png"></img>
                     <div className="genZ-para">
                         <p>May 20, 2023 </p>
-                        <p className="genZ-para-head">What Is Overthinking, and How Do I Stop Overthinking Everything?</p>
+                        <Link to="/blog/genZ-blog-1" className="addiction-menu">
+                            <p className="genZ-para-head">What Is Overthinking, and How Do I Stop Overthinking Everything?</p>
+                        </Link>
                     </div>
                 </div>
                 <div className="genZ-content-list">
                     <img src="/src/img/image 60.png"></img>
                     <div className="genZ-para">
                         <p>May 20, 2023 </p>
-                        <p className="genZ-para-head">How to Handle Peer Pressure ?</p>
+                        <Link to="/blog/genZ-blog-2" className="addiction-menu">
+                            <p className="genZ-para-head">How to Handle Peer Pressure ?</p>
+                        </Link>
                     </div>
                 </div>
                 <div className="genZ-content-list">
                     <img src="/src/img/image 68.png"></img>
                     <div>
                         <p>May 20, 2023</p>
-                        <p className="genZ-para-head">How to Handle Peer Pressure ?</p>
+                        <Link to="/blog/genZ-blog-3" className="addiction-menu">
+                            <p className="genZ-para-head">Study Pressure: How much is enough for VN students?</p>
+                        </Link>
                     </div>
                 </div>
                 <div className="genZ-content-list">
                     <img src="/src/img/image 65.png"></img>
                     <div>
                         <p>May 20, 2023</p>
-                        <p className="genZ-para-head">What Are the Pros and Cons of Video Games ? How we can stop it ?</p>
+                        <Link to="/blog/genZ-blog-4" className="addiction-menu">
+                            <p className="genZ-para-head">What Are the Pros and Cons of Video Games ? How we can stop it ?</p>
+                        </Link>
                     </div>
                 </div>
             </div>

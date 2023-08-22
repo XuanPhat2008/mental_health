@@ -46,7 +46,13 @@ import SleepDisorder from './Blogs/S/sleep-disorders';
 import ShoppingAddiction from './Blogs/S/shopping-addiction';
 import SocialAnxietty from './Blogs/S/social-anxiety-disorder';
 import TechnologyAddiction from './Blogs/T/technology-addiction';
-
+import AddictionBlog1 from './Blogs/A/addiction-blog-1';
+import AddictionBlog2 from './Blogs/A/addiction-blog-2';
+import AddictionBlog3 from './Blogs/A/addiction-blog-3';
+import GenZBlog1 from './Blogs/G/genZ-blog-1';
+import GenZBlog2 from './Blogs/G/genZ-blog-2';
+import GenZBlog3 from './Blogs/G/genZ-blog-3';
+import GenZBlog4 from './Blogs/G/genZ-blog-4';
 function App() {
 
   return (
@@ -65,6 +71,9 @@ function App() {
         <Route path="/quizz/6" element={<Quiz6 />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/addiction" element={<Addiction />} />
+        <Route path="/blog/addiction-blog-1" element={<AddictionBlog1 />} />
+        <Route path="/blog/addiction-blog-2" element={<AddictionBlog2 />} />
+        <Route path="/blog/addiction-blog-3" element={<AddictionBlog3 />} />
         <Route path="/blog/adhd-childhood" element={<ADHDChildhood />} />
         <Route path="/blog/adjustment-disorder" element={<AdjustmentDisorder />} />
         <Route path="/blog/antisocial-personality-disorder" element={<Antisocial />} />
@@ -80,6 +89,10 @@ function App() {
         <Route path="/blog/delayed-sleep-phase-syndrome" element={<DelayedSleepSyndrome/>} />
         <Route path="/blog/eating-disorders" element={<EatingDisorder />} />
         <Route path="/blog/genZ-&-peer-pressure" element={<PeerPressure />} />
+        <Route path="/blog/genZ-blog-1" element={<GenZBlog1 />} />
+        <Route path="/blog/genZ-blog-2" element={<GenZBlog2 />} />
+        <Route path="/blog/genZ-blog-3" element={<GenZBlog3 />} />
+        <Route path="/blog/genZ-blog-4" element={<GenZBlog4 />} />
         <Route path="/blog/gender-dysphoria" element={<GenderDysphoria />} />
         <Route path="/blog/intellectual-disability" element={<Intellectual />} />
         <Route path="/blog/loneliness" element={<Loneliness />} />

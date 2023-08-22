@@ -49,6 +49,35 @@ const Addiction =()=>{
                         </div>
                     </div>
                 </div>
+                <div className="addiction-content">
+                    <div className="addiction-content-list">
+                        <img src="/src/img/image 16.png"></img>
+                        <div className="addiction-main">
+                            <p>16/9/2022</p>
+                            <Link to="/blog/addiction-blog-1" className="addiction-menu">                            
+                                <p className="addiction-main-head">Children "addicted" to social networks: Incalculable consequences</p>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="addiction-content-list">
+                        <img src="/src/img/image 17.png"></img>
+                        <div className="addiction-main">
+                            <p>04/12/2022</p>
+                            <Link to="/blog/addiction-blog-2" className="addiction-menu">
+                                <p className="addiction-main-head">Young people addicted to social networks</p>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="addiction-content-list">
+                        <img src="/src/img/image 18.png"></img>
+                        <div className="addiction-main">
+                            <p>18/3/2023</p>
+                            <Link to="/blog/addiction-blog-3" className="addiction-menu">
+                                <p className="addiction-main-head">Is It Possible to Have a YouTube Addiction?</p>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

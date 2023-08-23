@@ -5,6 +5,25 @@ const Blog = () =>{
     return(
         <div className="blog-container">
             <h className="blog-title">Blog</h>
+            <div className="hastag-blog">
+                <ul >
+                    <li className="hastag-blog-menu">
+                        <Link to="/blog/has-genZ" className="hastag-blog-li">#gen-z</Link>
+                    </li>
+                    <li className="hastag-blog-menu">
+                        <Link to="/blog/has-psychology" className="hastag-blog-li">#psychology</Link>
+                    </li>
+                    <li className="hastag-blog-menu">
+                        <Link to="/blog/has-psychologicalcrisis" className="hastag-blog-li">#psychologicalcrisis</Link>
+                    </li>
+                    <li className="hastag-blog-menu">
+                        <Link to="/blog/has-theraphy&healing" className="hastag-blog-li">#theraphy&healing </Link>
+                    </li>
+                    <li className="hastag-blog-menu">
+                        <Link to="/blog/has-mentalhealth" className="hastag-blog-li">#mentalhealth</Link>
+                    </li>
+                </ul>
+            </div>
             <ul>
                 <h className="blog-head">A</h>
                 <li className="blog-li">

@@ -53,6 +53,21 @@ import EatingBlog2 from './Blogs/E/eating-blog-2';
 import EatingBlog3 from './Blogs/E/eating-blog-3';
 import ObBlog1 from './Blogs/O/ob-blog-1';
 import ObBlog2 from './Blogs/O/ob-blog-2';
+import GenZHas from './Blogs/Blog-for-hastag/genZ';
+import MentalhealthHas from './Blogs/Blog-for-hastag/mental-health';
+import PsychologicalcrisisHas from './Blogs/Blog-for-hastag/psychologicalcrisis';
+import TheraphyhealingHas from './Blogs/Blog-for-hastag/theraphyhealing';
+import PsyHas from './Blogs/Blog-for-hastag/psy';
+import GenZ1 from './Blogs/Blog-for-hastag/genZ-1';
+import GenZ2 from './Blogs/Blog-for-hastag/genZ-2';
+import Psy1 from './Blogs/Blog-for-hastag/psy-1';
+import Psy2 from './Blogs/Blog-for-hastag/psy-2';
+import Psy1more from './Blogs/Blog-for-hastag/psycho-1';
+import Psy2more from './Blogs/Blog-for-hastag/pyscho-2';
+import Mental2 from './Blogs/Blog-for-hastag/mental-2';
+import Mental1 from './Blogs/Blog-for-hastag/mental-1';
+import Thera1 from './Blogs/Blog-for-hastag/thera-1';
+import Thera2 from './Blogs/Blog-for-hastag/thera-2';
 function App() {
 
   return (
@@ -110,6 +125,21 @@ function App() {
         <Route path="/blog/sleep-disorders" element={<SleepDisorder />} />
         <Route path="/blog/social-anxiety-disorder" element={<SocialAnxietty />} />
         <Route path="/blog/technology-addiction" element={<TechnologyAddiction />} />
+        <Route path="/blog/has-genZ" element={<GenZHas />} />
+        <Route path="/blog/has-psychology" element={<PsyHas />} />
+        <Route path="/blog/has-psychologicalcrisis" element={<PsychologicalcrisisHas />} />
+        <Route path="/blog/has-theraphy&healing" element={<TheraphyhealingHas />} />
+        <Route path="/blog/has-mentalhealth" element={<MentalhealthHas />} />
+        <Route path="/blog/genZ-1" element={<GenZ1 />} />
+        <Route path="/blog/genZ-2" element={<GenZ2 />} />
+        <Route path="/blog/psy-1" element={<Psy1 />} />
+        <Route path="/blog/psy-2" element={<Psy2 />} />
+        <Route path="/blog/psy-1-more" element={<Psy1more />} />
+        <Route path="/blog/psy-2-more" element={<Psy2more />} />
+        <Route path="/blog/mental-1" element={<Mental1 />} />
+        <Route path="/blog/mental-2" element={<Mental2 />} />
+        <Route path="/blog/thera-1" element={<Thera1 />} />
+        <Route path="/blog/thera-2" element={<Thera2 />} />
       </Routes>
     </BrowserRouter>
   );

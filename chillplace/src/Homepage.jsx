@@ -43,14 +43,18 @@ const HomePage = () => {
                 <p>Explore our wide range mental health services.</p>
                 <ul className="cards">
                     <li className="card">
-                        <img src="./src/img/service3.jpg" alt="img" />
-                        <h3>Quiz</h3>
-                        <p>Quiz is designed to help you assess your mental health and identify any areas where you may need to make changes. It is not a substitute for professional diagnosis, but it can be a helpful tool for starting a conversation with your doctor or therapist.</p>
+                        <a href="\quizz">
+                            <img src="./src/img/service3.jpg" alt="img" />
+                            <h3>Quiz</h3>
+                            <p>Quiz is designed to help you assess your mental health and identify any areas where you may need to make changes. It is not a substitute for professional diagnosis, but it can be a helpful tool for starting a conversation with your doctor or therapist.</p>
+                        </a>
                     </li>
                     <li className="card">
-                        <img src="./src/img/service1.jpg" alt="img" />
-                        <h3>Blog</h3>
-                        <p>Mental Health Blog is a blog for everyone who is struggling with their mental health. Whether you are diagnosed with a mental illness or not, we all have mental health, and it is important to take care of it.</p>
+                        <a href="\blog">
+                            <img src="./src/img/service1.jpg" alt="img" />
+                            <h3>Blog</h3>
+                            <p>Mental Health Blog is a blog for everyone who is struggling with their mental health. Whether you are diagnosed with a mental illness or not, we all have mental health, and it is important to take care of it.</p>
+                        </a>
                     </li>
                     <li className="card">
                         <img src="./src/img/service5.jpg" alt="img" />
@@ -58,19 +62,25 @@ const HomePage = () => {
                         <p>Online therapy is a virtual therapist that can help you with a variety of mental health issues, including anxiety, depression, stress, and more. It is powered by artificial intelligence and is available 24/7 to provide support and advice.</p>
                     </li>
                     <li className="card">
-                        <img src="./src/img/service2.jpg" alt="img" />
-                        <h3>Music</h3>
-                        <p>Music playlist is a collection of songs that can be used to help improve mental health. The songs on the playlist can be chosen based on their lyrics, tempo, or overall mood.</p>
+                        <a href="\musics">
+                            <img src="./src/img/service2.jpg" alt="img" />
+                            <h3>Music</h3>
+                            <p>Music playlist is a collection of songs that can be used to help improve mental health. The songs on the playlist can be chosen based on their lyrics, tempo, or overall mood.</p>
+                        </a>
                     </li>
                     <li className="card">
-                        <img src="./src/img/service6.jpg" alt="img" />
-                        <h3>Podcast</h3>
-                        <p>Podcast is a weekly podcast that explores the world of mental health. We talk to experts, share personal stories, and provide tips and resources to help you take care of your mental health. We believe that mental health is important for everyone, and we want to make it easier to talk about. Our podcast is a safe space to learn about mental health, to share your experiences, and to find support.</p>
+                        <a href="\podcasts">
+                            <img src="./src/img/service6.jpg" alt="img" />
+                            <h3>Podcast</h3>
+                            <p>Podcast is a weekly podcast that explores the world of mental health. We talk to experts, share personal stories, and provide tips and resources to help you take care of your mental health. We believe that mental health is important for everyone, and we want to make it easier to talk about. Our podcast is a safe space to learn about mental health, to share your experiences, and to find support.</p>
+                        </a>
                     </li>
                     <li className="card">
-                        <img src="./src/img/service4.jpg" alt="img" />
-                        <h3>TV shows</h3>
-                        <p>TV shows can be a valuable resource for people who are struggling with their mental health. They can provide a realistic and relatable portrayal of what it's like to live with a mental illness, and they can help to destigmatize mental illness by showing that it is a common and treatable condition.</p>
+                        <a href="\movies">
+                            <img src="./src/img/service4.jpg" alt="img" />
+                            <h3>TV shows</h3>
+                            <p>TV shows can be a valuable resource for people who are struggling with their mental health. They can provide a realistic and relatable portrayal of what it's like to live with a mental illness, and they can help to destigmatize mental illness by showing that it is a common and treatable condition.</p>
+                        </a>
                     </li>
                 </ul>
             </section>

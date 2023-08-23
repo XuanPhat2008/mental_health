@@ -37,13 +37,8 @@ import MoodDisorder from './Blogs/M/mood-disorder';
 import NightEating from './Blogs/N/night-eating-syndrome';
 import SleepWake from './Blogs/N/non-24-hour-sleep-wake-disorder';
 import ObessiveCompulsive from './Blogs/O/obessive-compulsive-disorder';
-import OnlineTherapy from './Blogs/O/online-therapy';
-import PanicDisorder from './Blogs/P/panic-disorder';
-import ParaphilicDisorder from './Blogs/P/paraphilic-disorders';
-import QuitSmoking from './Blogs/Q/quit-somking';
 import SexAddiction from './Blogs/S/sex-addiction';
 import SleepDisorder from './Blogs/S/sleep-disorders';
-import ShoppingAddiction from './Blogs/S/shopping-addiction';
 import SocialAnxietty from './Blogs/S/social-anxiety-disorder';
 import TechnologyAddiction from './Blogs/T/technology-addiction';
 import AddictionBlog1 from './Blogs/A/addiction-blog-1';
@@ -53,6 +48,11 @@ import GenZBlog1 from './Blogs/G/genZ-blog-1';
 import GenZBlog2 from './Blogs/G/genZ-blog-2';
 import GenZBlog3 from './Blogs/G/genZ-blog-3';
 import GenZBlog4 from './Blogs/G/genZ-blog-4';
+import EatingBlog1 from './Blogs/E/eating-blog-1';
+import EatingBlog2 from './Blogs/E/eating-blog-2';
+import EatingBlog3 from './Blogs/E/eating-blog-3';
+import ObBlog1 from './Blogs/O/ob-blog-1';
+import ObBlog2 from './Blogs/O/ob-blog-2';
 function App() {
 
   return (
@@ -88,6 +88,9 @@ function App() {
         <Route path="/blog/depression-childhood" element={< DepressionChildhood/>} />
         <Route path="/blog/delayed-sleep-phase-syndrome" element={<DelayedSleepSyndrome/>} />
         <Route path="/blog/eating-disorders" element={<EatingDisorder />} />
+        <Route path="/blog/eating-blog-1" element={<EatingBlog1 />} />
+        <Route path="/blog/eating-blog-2" element={<EatingBlog2 />} />
+        <Route path="/blog/eating-blog-3" element={<EatingBlog3 />} />
         <Route path="/blog/genZ-&-peer-pressure" element={<PeerPressure />} />
         <Route path="/blog/genZ-blog-1" element={<GenZBlog1 />} />
         <Route path="/blog/genZ-blog-2" element={<GenZBlog2 />} />
@@ -101,13 +104,10 @@ function App() {
         <Route path="/blog/night-eating-syndrome" element={<NightEating />} />
         <Route path="/blog/non-24-hour-sleep-wake-disorder" element={<SleepWake/>} />
         <Route path="/blog/obessive-compulsive-disorder" element={<ObessiveCompulsive />} />
-        <Route path="/blog/online-therapy" element={<OnlineTherapy />} />
-        <Route path="/blog/panic-disorder" element={<PanicDisorder />} />
-        <Route path="/blog/paraphilic-disorders" element={<ParaphilicDisorder />} />
-        <Route path="/blog/quit-smoking" element={<QuitSmoking />} />
+        <Route path="/blog/ob-blog-1" element={<ObBlog1 />} />
+        <Route path="/blog/ob-blog-2" element={<ObBlog2 />} />
         <Route path="/blog/sex-addiction" element={<SexAddiction />} />
         <Route path="/blog/sleep-disorders" element={<SleepDisorder />} />
-        <Route path="/blog/shopping-addiction" element={<ShoppingAddiction />} />
         <Route path="/blog/social-anxiety-disorder" element={<SocialAnxietty />} />
         <Route path="/blog/technology-addiction" element={<TechnologyAddiction />} />
       </Routes>

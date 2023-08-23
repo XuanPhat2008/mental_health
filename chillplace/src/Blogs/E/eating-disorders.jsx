@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './eating-disorders.css';
 const EatingDisorder =()=>{
     return(
-        <div className="blog-container-anxiety">
+        <div className="blog-container-eating">
             <div className="Back-button">
                 <box-icon name='chevron-left'></box-icon>
                 <Link to="/blog" className="back-link">Back to Blog</Link>
@@ -36,6 +36,35 @@ const EatingDisorder =()=>{
                         <div className="content-border">
                             <p className="content-para">Are eating disorders genetic?</p>
                             <p className="content-para-text">There is some evidence that eating disorders are heritable. In fact, in one study of twins, researchers discovered that 40% to 60% of the risk for anorexia nervosa, bulimia nervosa, and binge eating disorder arises from genetic influences. However, the development of an eating disorder is a complex process impacted by a variety of factors and not just about genetic influences.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="eating-content">
+                    <div className="eating-content-list">
+                        <img src="/src/img/image 166.png"></img>
+                        <div className="eating-para">
+                            <p>06/12/2022 </p>
+                            <Link to="/blog/eating-blog-1" className="addiction-menu">
+                                <p className="eating-para-head">OCD vs. Eating Disorders: What Are the Differences?</p>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="eating-content-list">
+                        <img src="/src/img/image 167.png"></img>
+                        <div className="eating-para">
+                            <p>11/8/2022</p>
+                            <Link to="/blog/eating-blog-2" className="addiction-menu">
+                                <p className="eating-para-head">Binge Eating Disorder Symptoms</p>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="eating-content-list">
+                        <img src="/src/img/image 168.png"></img>
+                        <div>
+                            <p>21/12/2021</p>
+                            <Link to="/blog/eating-blog-3" className="addiction-menu">
+                                <p className="eating-para-head">Gastroparesis and Eating Disorders</p>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,28 @@
+.blog-container-sub-8{
+    background:fixed;
+    background-color: #EADEC8;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 30px; /* Để loại bỏ khoảng cách xung quanh nội dung */
+    height: 4600px;
+}
+.def-sym{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.def-ocd{
+    border: 1px solid #ccc; /* Định dạng khung */
+    padding: 30px; /* Khoảng cách giữa nội dung và khung */
+    margin-bottom: 20px; /* Khoảng cách giữa các khung */
+    background-color: rgba(217, 217, 217, 0.35);
+    height: 200px;
+}
+.def-eating{
+    border: 1px solid #ccc; /* Định dạng khung */
+    padding: 30px; /* Khoảng cách giữa nội dung và khung */
+    margin-bottom: 20px; /* Khoảng cách giữa các khung */
+    background-color: rgba(217, 217, 217, 0.35);
+    height: 200px;
+}

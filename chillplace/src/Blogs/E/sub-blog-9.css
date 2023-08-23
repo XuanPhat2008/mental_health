@@ -1,0 +1,20 @@
+.blog-container-sub-9{
+    background:fixed;
+    background-color: #EADEC8;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 30px; /* Để loại bỏ khoảng cách xung quanh nội dung */
+    height: 3000px;
+}
+.table-of-contents-25{
+    border: 1px solid #ccc; /* Định dạng khung */
+    padding: 30px; /* Khoảng cách giữa nội dung và khung */
+    margin-bottom: 20px; /* Khoảng cách giữa các khung */
+    background-color: rgba(217, 217, 217, 0.35);
+    width: 790px;
+    height: 200px;
+    margin-right: 30px;
+}
+.frequently-asked-questions-eating{
+    background-color: #65463c;
+}

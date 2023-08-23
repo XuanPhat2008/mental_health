@@ -4,5 +4,31 @@
     background-size: cover;
     background-repeat:no-repeat;
     padding: 30px; /* Để loại bỏ khoảng cách xung quanh nội dung */
-    height: 2000px;
+    height: 3000px;
+}
+.frequently-asked-questions-obessive{
+    background-color: #65463c;
+}
+.ob-content{
+    margin-top: 50px;
+}
+.ob-content-list{
+    border: 1px solid #ccc; /* Định dạng khung */
+    padding: 20px; /* Khoảng cách giữa nội dung và khung */
+    margin-bottom: 20px; /* Khoảng cách giữa các khung */
+    background-color: #f4eee5;
+    border-left: 3px solid #661f1f; /* Tạo viền bên trái */
+    border-right: 3px solid #661f1f; /* Tạo viền bên trái */
+    font-family: 'Bai Jamjuree';
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.ob-para-head{
+    font-family: 'Libre Bodoni';
+    font-size: 40px;
+}
+.ob-para{
+    margin: 20px;
+    padding: 20px;
 }

@@ -16,7 +16,7 @@ const ObessiveCompulsive  =()=>{
                 <div className="addiction-para">
                     <p><b>Obsessive-compulsive disorder (OCD)</b> is a mental health condition that involves experiencing recurring thoughts (obsessions) that may then lead to repetitive behaviors (compulsions). An estimated 2.3% of U.S. adults experience OCD at some point in their lives and the condition tends to be more common in women than in men.</p>
                 </div>
-                <div className="frequently-asked-questions">
+                <div className="frequently-asked-questions-obessive">
                     <p className="frequently-para">FREQUENTLY ASKED QUESTIONS</p>
                     <div className="frequently-content">
                         <div className="content-border">
@@ -38,6 +38,35 @@ const ObessiveCompulsive  =()=>{
                         <div className="content-border">
                             <p className="content-para">What are the types of OCD?</p>
                             <p className="content-para-text">While the DSM-5 does not list specific subtypes, research suggests that OCD can present in a few different forms that are distinguished by the type of symptoms involved. Common types of OCD include those that are centered on hoarding, ordering/symmetry, contamination/cleaning, checking, and obsessive thoughts without compulsions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="ob-content">
+                    <div className="ob-content-list">
+                        <img src="/src/img/image 166.png"></img>
+                        <div className="eating-para">
+                            <p>06/12/2022 </p>
+                            <Link to="/blog/eating-blog-1" className="addiction-menu">
+                                <p className="ob-para-head">OCD vs. Eating Disorders: What Are the Differences?</p>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="ob-content-list">
+                        <img src="/src/img/image 180.png"></img>
+                        <div className="ob-para">
+                            <p>23/6/2022</p>
+                            <Link to="/blog/ob-blog-1" className="addiction-menu">
+                                <p className="ob-para-head">Five Things to Know About OCD</p>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="ob-content-list">
+                        <img src="/src/img/image 181.png"></img>
+                        <div>
+                            <p>28/5/2021</p>
+                            <Link to="/blog/ob-blog-2" className="addiction-menu">
+                                <p className="ob-para-head">Common Risk Factors for OCD</p>
+                            </Link>
                         </div>
                     </div>
                 </div>

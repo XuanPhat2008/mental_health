@@ -108,24 +108,6 @@ const Blog = () =>{
                 <li className="blog-li">
                     <Link to="/blog/obessive-compulsive-disorder" className="blog-li linking">Obsessive-Compulsive Disorder</Link>
                 </li>
-                <li className="blog-li">
-                    <Link to="/blog/online-therapy" className="blog-li linking">Online Theraphy</Link>
-                </li>
-            </ul>
-            <ul>
-                <h className="blog-head">P</h>
-                <li className="blog-li">
-                    <Link to="/blog/panic-disorder" className="blog-li linking">Panic Disorder</Link>
-                </li>
-                <li className="blog-li">
-                    <Link to="/blog/paraphilic-disorders" className="blog-li linking">Paraphilic Disorders</Link>
-                </li>
-            </ul>
-            <ul>
-                <h className="blog-head">Q</h>
-                <li className="blog-li">
-                    <Link to="/blog/quit-smoking" className="blog-li linking">Quit Smoking</Link>
-                </li>
             </ul>
             <ul>
                 <h className="blog-head">S</h>
@@ -134,9 +116,6 @@ const Blog = () =>{
                 </li>
                 <li className="blog-li">
                     <Link to="/blog/sleep-disorders" className="blog-li linking">Sleep Disorders</Link>
-                </li>
-                <li className="blog-li">
-                    <Link to="/blog/shopping-addiction" className="blog-li linking">Shopping Addiction</Link>
                 </li>
                 <li className="blog-li">
                     <Link to="/blog/social-anxiety-disorder" className="blog-li linking">Social Anxiety Disorder</Link>

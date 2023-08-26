@@ -127,6 +127,10 @@ section .cards .card {
 .services {
   background-color: #f2f2f2;
 }
+.services a{
+  text-decoration: none;
+  color: inherit;
+}
 
 .services .card img {
   width: 120px;

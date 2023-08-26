@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import "./Homepage.css"; // Import your CSS file for styling
 
 const HomePage = () => {
-    emailjs.init("mbAi0HjYgB-fc48dB");
+    emailjs.init("Pe8xyaROJusy8Mma_");
     const sendMail = (event) => {
         event.preventDefault();
         const params = {
@@ -12,8 +12,8 @@ const HomePage = () => {
             message: document.getElementById("message").value,
         };
 
-        const serviceID = "service_9yvzwqk";
-        const templateID = "template_83kdtk7";
+        const serviceID = "service_bseyoub";
+        const templateID = "template_qudrk3b";
 
         emailjs.send(serviceID, templateID, params)
             .then(res => {
@@ -21,9 +21,12 @@ const HomePage = () => {
                 document.getElementById("email").value = "";
                 document.getElementById("message").value = "";
                 console.log(res);
-                alert("Your message sent successfully!!")
+                alert("Your message sent successfully!!");
             })
-            .catch(err => console.log(err));
+            .catch(err => {
+                console.log(err);
+                alert("An error occurred while sending the message.");
+            });
     };
 
     return (

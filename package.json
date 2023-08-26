@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "boxicons": "^2.1.4"
+    "@emailjs/browser": "^3.11.0",
+    "boxicons": "^2.1.4",
+    "emailjs": "^4.0.2"
   }
 }

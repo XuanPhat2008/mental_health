@@ -1,33 +1,12 @@
 import React from "react";
-import emailjs from 'emailjs-com';
 import "./Homepage.css"; // Import your CSS file for styling
+import { useForm, ValidationError } from '@formspree/react';
 
 const HomePage = () => {
-    emailjs.init("Pe8xyaROJusy8Mma_");
-    const sendMail = (event) => {
-        event.preventDefault();
-        const params = {
-            name: document.getElementById("name").value,
-            email: document.getElementById("email").value,
-            message: document.getElementById("message").value,
-        };
-
-        const serviceID = "service_bseyoub";
-        const templateID = "template_qudrk3b";
-
-        emailjs.send(serviceID, templateID, params)
-            .then(res => {
-                document.getElementById("name").value = "";
-                document.getElementById("email").value = "";
-                document.getElementById("message").value = "";
-                console.log(res);
-                alert("Your message sent successfully!!");
-            })
-            .catch(err => {
-                console.log(err);
-                alert("An error occurred while sending the message.");
-            });
-    };
+    const [state, handleSubmit] = useForm("mnqkdlrq");
+    if (state.succeeded) {
+        alert('Thank you for submit, we will reply you soon.')
+    }
 
     return (
         <div className="wrapper-hp">
@@ -167,11 +146,32 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className="col form">
-                        <form>
-                            <input type="text" placeholder="Name*" id="name" required />
-                            <input type="email" placeholder="Email*" id="email" required />
-                            <textarea placeholder="Message*" id="message" required></textarea>
-                            <button id="submit" type="submit" onClick={sendMail}>Send Message</button>
+                        <form onSubmit={handleSubmit}>
+                            <label htmlFor="email">
+                                Email Address:
+                            </label>
+                            <input
+                                id="email"
+                                type="email"
+                                name="email"
+                            />
+                            <ValidationError
+                                prefix="Email"
+                                field="email"
+                                errors={state.errors}
+                            />
+                            <textarea
+                                id="message"
+                                name="message"
+                            />
+                            <ValidationError
+                                prefix="Message"
+                                field="message"
+                                errors={state.errors}
+                            />
+                            <button type="submit" disabled={state.submitting}>
+                                Submit
+                            </button>
                         </form>
                     </div>
                 </div>

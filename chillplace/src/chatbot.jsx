@@ -4,7 +4,7 @@ import './chatbot.css';
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 
-const API_KEY = "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";
+const API_KEY = "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";
 // "Explain things like you would to a 10 year old learning how to code."
 const systemMessage = { //  Explain things like you're talking to a software professional with 5 years of experience.
   "role": "system", "content": "Explain things like you're talking to a software professional with 2 years of experience."
